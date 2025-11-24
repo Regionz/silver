@@ -12,12 +12,12 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
        title: 'Silver',
       theme: ThemeData(
-        colorSchemeSeed: Colors.indigo,
+        colorSchemeSeed: const Color.fromARGB(255, 185, 185, 185),
         useMaterial3: true,
         brightness: Brightness.light,
       ),
       darkTheme: ThemeData(
-        colorSchemeSeed: Colors.blue,
+        colorSchemeSeed: const Color.fromARGB(255, 78, 78, 78),
         useMaterial3: true,
         brightness: Brightness.dark,
       ),
