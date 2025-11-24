@@ -48,12 +48,12 @@ class _NavScreenState extends State<NavScreen> {
             label: 'Home',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.settings),
-            label: 'Settings',
+            icon: Icon(Icons.map),
+            label: 'Maps',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.archive),
-            label: 'Archive',
+            icon: Icon(Icons.calendar_today),
+            label: 'Calendar',
           ),
         ],
       ),
