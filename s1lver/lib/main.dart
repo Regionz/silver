@@ -28,8 +28,8 @@ class _NavScreenState extends State<NavScreen> {
 
   final _pages = const [
     Center(child: Text('Home', style: TextStyle(fontSize: 24))),
-    Center(child: Text('Settings', style: TextStyle(fontSize: 24))),
-    Center(child: Text('Archive', style: TextStyle(fontSize: 24))),
+    Center(child: Text('Maps', style: TextStyle(fontSize: 24))),
+    Center(child: Text('Calendar', style: TextStyle(fontSize: 24))),
   ];
 
   @override
