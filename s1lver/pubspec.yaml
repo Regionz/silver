@@ -9,9 +9,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-    flutter_map:
-    latlong2:
-    table_calendar:
 
 dev_dependencies:
   flutter_test:
